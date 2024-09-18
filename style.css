@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    height: 97.2px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container{
+    box-sizing: border-box;
+    background-color: white;
+    border: 2px solid white;
+    height: 97.2px;
+    width: 1220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    box-sizing: border-box;
+}
+
+img {
+    cursor: pointer;
+    width: 175.91px;
+    height: 56.38px;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.language-logo {
+    cursor: pointer;
+    width: 45px;
+    height: 35px;
+}
+
+.box {
+    cursor: pointer;
+    margin: 0px 22px 0px 0px;
+    text-decoration: none;
+    color: black;
+}
+
+.box select {
+    border: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 960px;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-one span {
+    font-size: 45px;
+}
+
+.line-one {
+    margin: 80px 0px 40px;
+}
+
+.line-one span {
+    font-size: 48px;
+    padding: 0px 12px;
+}
+
+.line-one img {
+    width: 105.91px;
+    height: 33.38px
+}
+
+.line-two div {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    width: 61vw;
+    text-align: center;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #00b6d1;
+    border-radius: 10px;
+    padding: 14px;
+    border: 2px solid #00b6d1;
+}
+
+.section-two {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.main .download {
+    align-self: flex-start;
+}
+
+.download {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 75px 0px 25px 0px;
+    gap: 5px;
+}
+
+.download img {
+    height: 62px;
+    width: 101px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.item button {
+    background-color: #5CB85C;
+    border: 2px solid #5CB85C;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.item .lang {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 70px 0px 70px;
+}
+
+.lang-two {
+    font-size: 0.7em;
+    margin: 15px;
+}
+
+.hash {
+    text-align: center;
+}
+
+.hash .code {
+    font-size: 7px;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    width: 1513px;
+    background-color: rgb(38 36 36);
+}
+
+.three {
+    background-color: rgb(38 36 36);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 280px;
+    padding: 24px 0px;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 20px;
+}
+
+.news h3{
+    font-size: 24px;
+    padding: 0px 0px 10px;
+}
+
+.news span {
+    text-align: center;
+    font-size: 16px;
+}
+
+.subscribe {
+    position: relative;
+    bottom: 24px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px 70px;
+    padding: 40px;
+}
+
+.content {display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 275px;
+}
+
+.subscribe h3 {
+    padding: 0px 0px 24px;
+    font-size: 24px;
+    color: #00b6d1;
+    font-weight: 400;
+}
+
+.subscribe label {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.subscribe input {
+    border: 0.1px solid #e0d4d4;
+    margin: 5px;
+    padding: 17px 50px;
+}
+
+.subscribe button {
+    cursor: pointer;
+    width: 275px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #00b6d1;
+    margin: 10px;
+    padding: 15px 11px;
+    box-shadow: 0 12px 18px -6px rgb(77 170 242 / 37%);
+}
+
+.para {
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    padding-bottom: 48px;
+}
+
+.para h3 {
+    font-weight: 400; 
+    font-size: 24px;
+    padding: 0px 0px 10px;
+}
+
+.para p {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0px 0px 16px;
+}
+
+.para a {
+    color: #00b6d1;
+    text-decoration: none;
+}
+
+.head {
+    margin: 32px 165px;
+    padding: 24px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+}
+
+.head div {
+    height: 304.2px;
+}
+
+.head ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 202px;
+}
+
+.head h4 {
+    margin-bottom: 25px;
+}
+
+.head li {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.head p {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.head a {
+    color: black;
+    text-decoration: none;
+}
+
+.head input {
+    border: 0.1px solid #e0d4d4;
+    width: 202px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.head button {
+    background-color: #00b6d1;
+    color: white;
+    margin: 10px 0px ;
+    padding: 10px 25px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    width: 202px;
+    cursor: pointer;
+}
+
+/* .foot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.foot-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-bar img {
+    cursor: pointer;
+    height: 50px;
+    width: 157px;
+
+}
+
+.foot-bar svg {
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    margin: 0px 8px;
+}
+
+.copyright {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 20px 270px 50px;
+}
+
